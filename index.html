@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">logo</a>
+        <ul>
+            <li><a href="#" class="active">Home</a> </li>
+            <li><a href="#">About</a> </li>
+            <li><a href="#">Work</a> </li>
+            <li><a href="#">Contact</a> </li>
+    </ul>
+    </header>
+    <section >
+        <img src="15Z_2102.w026.n002.163B.p1.163.jpg" id="img">
+        <h2 id="text">Moon Light</h2>
+        <a href="" class="btn">Explore</a>
+       </section>
+       <div class="sec" id="sec">
+         <h2>Parallax srolling Effects </h2>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente corrupti praesentium exercitationem deserunt veritatis perferendis tenetur, fugiat iure nihil, eos magnam tempora impedit pariatur eveniet provident, sed harum aliquid. Adipisci mollitia obcaecati blanditiis nisi?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo eaque ad voluptatibus consectetur minus. Optio dolores, in assumenda accusamus ipsa ullam soluta voluptatem magni minima, itaque sequi saepe officia expedita, cum laborum neque iste ut provident illo voluptate possimus.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, ab! Rem aut architecto earum quaerat repellendus quis odio, ipsum, sunt, modi atque nobis. Exercitationem corporis neque sequi commodi adipisci dolorem. Obcaecati a earum provident quibusdam commodi nostrum enim, accusamus hic.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis vero minus dicta expedita consectetur architecto libero ut iure! Ad tempore tenetur amet vitae suscipit quos architecto illum, nam quasi? Ea blanditiis sint aperiam voluptate earum omnis totam perspiciatis natus exercitationem!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt tempore nostrum voluptatem suscipit saepe consequatur, laborum incidunt eum, mollitia iusto, cupiditate praesentium possimus ea. Repellat iusto animi reprehenderit iste enim aspernatur dolorem qui vero quidem veniam, rerum amet sunt temporibus?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, debitis! Accusantium error, ex eos iusto sequi quas ab dolore iure tempore quasi! Ab, amet fuga? Accusantium, neque? Vero doloribus in sequi dicta, labore cumque ducimus, aliquam, nobis alias vitae fugiat.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, dolore enim nesciunt numquam odit fuga ullam perspiciatis quibusdam doloribus, dolorum debitis quia nisi dignissimos expedita dolorem vitae a! Non sed minus ipsam laudantium quisquam possimus blanditiis molestiae consectetur dignissimos, ad, nesciunt voluptatibus nostrum! Aspernatur reprehenderit quae temporibus ut saepe repudiandae!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic magni facere enim ipsa incidunt eum vitae dolorum, id voluptatum ab vel culpa aliquid tenetur voluptates rerum! Id quis architecto, earum quos corporis aliquid voluptatibus. Ut soluta tempora magni. Deleniti rerum placeat nemo nostrum eveniet adipisci iure repellat nobis autem <br><br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatum consequuntur, exercitationem, delectus laudantium voluptate veritatis quibusdam fuga, dignissimos facere eius at quaerat quis corporis sint cum voluptatem soluta alias. Molestiae corrupti sit, officia eaque iusto velit sed! Asperiores, molestias.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo assumenda maiores tenetur iste quo adipisci provident omnis sapiente, iusto esse quibusdam perspiciatis nobis ullam accusantium? Consectetur molestiae mollitia sunt ipsa quod velit, cupiditate quam quae minus possimus itaque voluptatem modi aspernatur, deleniti consequuntur laborum explicabo at ea iste sed dignissimos?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi ad illo sint? Officiis sequi, unde alias incidunt eum officia saepe quae tenetur, quas quisquam iste. Autem reiciendis fugiat cum! Sequi dignissimos et tenetur fugit molestias assumenda est aspernatur quaerat rem nisi veniam laudantium sed itaque corporis, iure possimus minus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam beatae magnam dolores. Velit tenetur mollitia debitis facere perspiciatis veniam aspernatur perferendis quibusdam minima dolorum sapiente maxime similique, vero et itaque aperiam assumenda eius quia! Qui, cupiditate perspiciatis quae suscipit officiis quidem esse rerum aliquid nesciunt sunt omnis, quis eaque.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat perspiciatis dolores libero neque, impedit illo corporis quasi autem consequatur minus totam aliquam pariatur non nisi doloremque fugit officia soluta provident? Possimus voluptatibus beatae pariatur recusandae molestiae sequi dolores perspiciatis placeat itaque suscipit illo sit sapiente, nam ut exercitationem eveniet iure.
+
+         </p>
+       </div>
+       <script>
+        let img=document.getElementById('img');
+        let text=document.getElementsByClassName('text');
+        let btn=document.getElementsByClassName('btn')
+         window.addEventListener('scroll',function(){
+            let value=window.scrollY;
+            btn.style.top = value * 1.05 + 'px';
+         })
+       </script>
+</body>
+</html>
